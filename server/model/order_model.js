@@ -4,9 +4,9 @@ var postData = {
   recipient: {
     address: {
       line1: "14 test place",
-      line2: "test",
-      postalOrZipCode: "12345",
-      countryCode: "US",
+      line2: "Testing Way",
+      postalOrZipCode: "123345",
+      countryCode: "UK",
       townOrCity: "somewhere",
       stateOrCounty: "somewhereelse",
     },
@@ -15,13 +15,13 @@ var postData = {
   },
   items: [
     {
-      sku: "GLOBAL-FAP-16x24",
+      sku: "GLOBAL-FAP-A4",
       copies: 1,
       sizing: "fillPrintArea",
       assets: [
         {
           printArea: "default",
-          url: "https://i.imgur.com/bUR6ym8.jpeg",
+          url: "https://imgur.com/ACF0GuK",
         },
       ],
     },
