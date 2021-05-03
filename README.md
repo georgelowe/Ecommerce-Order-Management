@@ -12,8 +12,8 @@ Stack used: MongoDB, Express, JS, Node.js
 - [x] View all current orders
 - [x] Update order information
 - [x] Submit basic order information to Pwinty API
-- [] Submit artwork file alongside order information
-- [] Contact customer on Etsy to let them know order has been shipped
+- [ ] Submit artwork file alongside order information
+- [ ] Contact customer on Etsy to let them know order has been shipped
 
 ## Created by:
 
