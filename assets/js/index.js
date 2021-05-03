@@ -118,7 +118,7 @@ grey_btn &&
 new_colour_btn &&
   new_colour_btn.addEventListener("click", function () {
     bg_input.value = "Preview All Colours";
-    console.log("new col");
+    form.style.border = "10px " + "#F7E5EA" + " dashed";
   });
 
 add_address_selector &&

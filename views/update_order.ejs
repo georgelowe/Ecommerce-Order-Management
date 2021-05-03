@@ -7,12 +7,12 @@
       <a href="/">All Orders</a>
     </div>
     <div class="form-container">
-      <div class="form" id="order-form">
+      <div class="form <%= order.background %>" id="order-form">
         <form method="POST" id="update_order" enctype="multipart/form-data">
           <div class="new_order">
             <div class="form-header">
               <div class="form-title">Update Order</div>
-              <span class="form-error" id="form-error"></span>
+              <span class="form-error" id="form-error"> </span>
             </div>
 
             <div class="form-control">
@@ -46,12 +46,11 @@
 
             <div class="select-options-container">
               <select class="select" name="product_type" id="products">
-                <option value="current">
+                <option value="<%= order.product_type %>">
                   Current item: <%= order.product_type %>
                 </option>
-                <option selected="selected" value="Download">
-                  Digital File
-                </option>
+
+                <option value="Download">Digital File</option>
                 <option value="A4 Print">A4 Print Only</option>
                 <option value="30x40cm Print">30x40cm Print Only</option>
                 <option value="50x70cm Print">50x70cm Print Only</option>
@@ -134,7 +133,7 @@
 
             <div class="select-options-container">
               <select class="select" name="status" id="status">
-                <option value="current">
+                <option value="<%= order.status %>">
                   Current status: <%= order.status %>
                 </option>
                 <option value="Not Started">Not Started</option>

@@ -38,7 +38,7 @@ input {
 }
 
 .page-container {
-  width: 70%;
+  width: 80%;
   margin: auto;
   height: 100vh;
   justify-content: center;
@@ -108,6 +108,10 @@ tr {
   margin-bottom: 10px;
   padding-bottom: 10px;
   position: relative;
+}
+
+input:nth-of-type(1) {
+  margin-top: 10px;
 }
 
 .form-control input {
@@ -197,8 +201,54 @@ tr {
   background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
 }
 
+.eggshell {
+  border: 10px #d6dedb solid;
+}
+
+.blue {
+  border: 10px #345060 solid;
+}
+
+.green {
+  border: 10px #55715e solid;
+}
+
+.charcoal {
+  border: 10px #404040 solid;
+}
+
+.lemon {
+  border: 10px #ddd866 solid;
+}
+
+.grey {
+  border: 10px #b3b4b6 solid;
+}
+
+.preview {
+  border: 10px #f7e5ea dashed;
+}
+
 .form-error {
-  color: red;
+  color: #fd8b8e;
+  white-space: pre;
+}
+
+/* ----- Status Colours -----*/
+.not {
+  background-color: #ea9999 !important;
+}
+
+.Drawing {
+  background-color: #f9cb9c !important;
+}
+
+.awaiting {
+  background-color: #b6d7a8 !important;
+}
+
+.done {
+  background-color: #93c47d !important;
 }
 
 /* ----- Footer -----*/

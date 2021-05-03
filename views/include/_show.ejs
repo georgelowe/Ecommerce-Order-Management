@@ -1,6 +1,6 @@
 <div class="table-stats">Open orders:   <%= orders.length %> </div>
 <% for(var i = 0;i<orders.length;i++){ %> 
-<tr>
+<tr class="<%=orders[i].status%>">
     <td><%=orders[i].date%></td>
     <td><%=orders[i].customer_name %></td>
     <td><%=orders[i].pet_name%></td>
