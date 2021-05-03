@@ -1,1 +1,31 @@
-# ordering-system
+# Ordering System for Ecommerce Store 📦
+
+A fullstack node.js management system for bespoke customer artwork orders made on my Ecommerce store. Orders are stored in a MongoDB database and their current status and information can be updated.
+
+Orders handled by this system are physical prints. Once the artwork is ready, the order is sent via a POST request to an external (print company API)[https://www.pwinty.com/api/].
+
+Stack used: MongoDB, Express, JS, Node.js
+
+## Key Features
+
+- [x] Add new orders manually
+- [x] View all current orders
+- [x] Update order information
+- [x] Submit basic order information to Pwinty API
+- [] Submit artwork file alongside order information
+- [] Contact customer on Etsy to let them know order has been shipped
+
+## Created by:
+
+[George Lowe](https://github.com/georgelowe)
+
+Contact me here:
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/george-lowe/"> 
+    <img alt="My LinkedIn" src="https://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=Linkedin&logoColor=white" />
+  </a>
+  <a href="https://twitter.com/gloweio"> 
+    <img alt="My Twitter" src="https://img.shields.io/badge/-Twitter-00acee?style=flat&logo=Twitter&logoColor=white" />
+  </a>
+</p>

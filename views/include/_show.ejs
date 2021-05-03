@@ -1,0 +1,24 @@
+<div class="table-stats">Open orders:   <%= orders.length %> </div>
+<% for(var i = 0;i<orders.length;i++){ %> 
+<tr>
+    <td><%=orders[i].date%></td>
+    <td><%=orders[i].customer_name %></td>
+    <td><%=orders[i].pet_name%></td>
+    <td><%=orders[i].product_type%></td>
+    <td><%=orders[i].background%></td>
+    <td><%=orders[i].artwork_batch%></td>
+    <td><%=orders[i].status%></td>
+    
+    <td>
+        <a href="/update-order?id=<%=orders[i]._id %> " class="btn  update">
+            <span class="text-gradient"><i class="fas fa-pencil-alt"</span></i>
+        </a>
+        <a  class="btn delete" data-id=<%=orders[i]._id %>>
+            <span class="text-gradient"><i class="fas fa-times"</span></i>
+        </a>
+    </td>
+</tr>
+<% } %> 
+
+
+

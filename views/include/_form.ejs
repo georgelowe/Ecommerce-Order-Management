@@ -1,0 +1,97 @@
+<div class="form" id="order-form">
+  <form action="/api/orders" method="POST" id="add_order">
+    <div class="new_order">
+      <div class="form-header">
+        <div class="form-title">Add Order</div>
+        <span class="form-error" id="form-error"></span>
+      </div>
+
+      <div class="form-control">
+        <input
+          type="text"
+          name="customer_name"
+          placeholder="Customer Name"
+          id="test"
+        />
+        <input type="hidden" name="id" value="" />
+      </div>
+      <div class="form-control">
+        <input type="text" name="pet_name" placeholder="Pet Name" />
+      </div>
+
+      <div class="colour-options-container">
+        <div class="colour-options" id="white"></div>
+        <div class="colour-options" id="eggshell"></div>
+        <div class="colour-options" id="midnight-blue"></div>
+        <div class="colour-options" id="forest-green"></div>
+        <div class="colour-options" id="charcoal"></div>
+        <div class="colour-options" id="lemon"></div>
+        <div class="colour-options" id="grey"></div>
+        <div class="colour-options" id="new-colour"></div>
+      </div>
+
+      <div class="select-options-container">
+        <select class="select" name="product_type" id="products">
+          <option selected="selected" value="Download">Digital File</option>
+          <option value="A4 Print">A4 Print Only</option>
+          <option value="30x40cm Print">30x40cm Print Only</option>
+          <option value="50x70cm Print">50x70cm Print Only</option>
+          <option value="A4 Black Frame">A4 Black Frame</option>
+          <option value="A4 White Frame">A4 White Frame</option>
+          <option value="30x40cm Black Frame">30x40cm Black Frame</option>
+          <option value="30x40cm White Frame">30x40cm White Frame</option>
+          <option value="50x70cm Black Frame">50x70cm Black Frame</option>
+          <option value="50x70cm White Frame">50x70cm White Frame</option>
+        </select>
+      </div>
+
+      <div class="form-control">
+        <input
+          type="text"
+          name="background"
+          placeholder="Background Colour"
+          id="background-input"
+        />
+        <input type="hidden" name="status" value="Not Started" />
+      </div>
+
+      <div class="form-control">
+        <input type="text" name="artwork_batch" placeholder="Artist Batch" />
+      </div>
+
+      <div class="select-shipping-container">
+        <select class="select" name="shipping" id="add_address_selector">
+          <option selected="selected" value="false">Add this later</option>
+          <option value="true">Add address</option>
+        </select>
+      </div>
+
+      <div class="form-control hidden-address-inputs" style="display: none">
+        <input type="text" name="line1" placeholder="Address Line 1" />
+      </div>
+      <div class="form-control hidden-address-inputs" style="display: none">
+        <input type="text" name="line2" placeholder="Address Line 2" />
+      </div>
+      <div class="form-control hidden-address-inputs" style="display: none">
+        <input
+          type="text"
+          name="postalOrZipCode"
+          placeholder="Postal/Zip Code"
+        />
+      </div>
+      <div class="form-control hidden-address-inputs" style="display: none">
+        <input type="text" name="countryCode" placeholder="e.g. UK, US" />
+      </div>
+      <div class="form-control hidden-address-inputs" style="display: none">
+        <input type="text" name="townOrCity" placeholder="City" />
+      </div>
+      <div class="form-control hidden-address-inputs" style="display: none">
+        <input type="text" name="stateOrCounty" placeholder="County/State" />
+      </div>
+
+      <div class="form-group">
+        <button type="submit">Save</button>
+      </div>
+    </div>
+  </form>
+</div>
