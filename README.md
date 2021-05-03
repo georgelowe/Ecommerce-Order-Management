@@ -17,14 +17,14 @@ Stack used: MongoDB, Express, JS, Node.js
 
 ## Screenshots
 
-<div display="flex" flex-direction="column" justify-content="center"> 
+List of orders:
 <img src="assets/img/order_list.png"  height="500" >
 
+Updating an existing order:
 <img src="assets/img/update_order.png"  height="600" >
 
+Resulting order placed on external supplier website:
 <img src="assets/img/example_order.png" height="500" >
-
-</div>
 
 ## Created by:
 
