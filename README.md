@@ -2,7 +2,7 @@
 
 A fullstack node.js management system for bespoke customer artwork orders made on my [Ecommerce store](https://www.etsy.com/uk/shop/thepawtraitdesignco). Orders are stored in a MongoDB database and their current status and information can be updated.
 
-Orders handled by this system are physical prints. Once the artwork is ready, the order is sent via a POST request to an external [print company API](https://www.pwinty.com/api/)
+Orders handled by this system are physical prints. Once the artwork is ready, the order is sent via a POST request to an external [API provided by a printing company](https://www.pwinty.com/api/)
 
 Stack used: MongoDB, Express, JS, Node.js
 
