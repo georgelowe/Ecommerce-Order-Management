@@ -18,13 +18,13 @@ Stack used: MongoDB, Express, JS, Node.js
 ## Screenshots
 
 List of orders:
-<img src="assets/img/order_list.png"  height="500" >
+<img display="block"  src="assets/img/order_list.png"  height="500" >
 
 Updating an existing order:
-<img src="assets/img/update_order.png"  height="600" >
+<img display="block" src="assets/img/update_order.png"  height="600" >
 
 Resulting order placed on external supplier website:
-<img src="assets/img/example_order.png" height="500" >
+<img display="block"  src="assets/img/example_order.png" height="500" >
 
 ## Created by:
 
