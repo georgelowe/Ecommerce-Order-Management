@@ -17,15 +17,16 @@ Stack used: MongoDB, Express, JS, Node.js
 
 ## Screenshots
 
-div
+<div display="flex" justify-content="center"> 
+<img src="assets/img/order_list.png"  height="500" >
 
-<img src="assets/img/order_list.png" margin="auto" height="500" >
+<img src="assets/img/add_order.png" height="400" >
 
-<img src="assets/img/add_order.png" margin="auto" height="400" >
+<img src="assets/img/update_order.png"  height="600" >
 
-<img src="assets/img/update_order.png" margin="auto" height="600" >
+<img src="assets/img/example_order.png"height="500" >
 
-<img src="assets/img/example_order.png" margin="auto" height="500" >
+</div>
 
 ## Created by:
 
