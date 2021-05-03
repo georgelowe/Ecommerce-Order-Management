@@ -17,8 +17,7 @@ Stack used: MongoDB, Express, JS, Node.js
 
 ## Screenshots
 
-![Add order](assets/img/add_order.png)
-
+<img src="assets/img/add_order.png" align="left" height="100" >
 ## Created by:
 
 [George Lowe](https://github.com/georgelowe)
