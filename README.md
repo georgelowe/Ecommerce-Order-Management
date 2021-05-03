@@ -20,8 +20,6 @@ Stack used: MongoDB, Express, JS, Node.js
 <div display="flex" flex-direction="column" justify-content="center"> 
 <img src="assets/img/order_list.png"  height="500" >
 
-<img src="assets/img/add_order.png" height="400" >
-
 <img src="assets/img/update_order.png"  height="600" >
 
 <img src="assets/img/example_order.png" height="500" >
