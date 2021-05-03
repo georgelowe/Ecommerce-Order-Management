@@ -15,6 +15,10 @@ Stack used: MongoDB, Express, JS, Node.js
 - [ ] Submit artwork file alongside order information
 - [ ] Contact customer on Etsy to let them know order has been shipped
 
+## Screenshots
+
+![Add order](assets/img/add_order.png)
+
 ## Created by:
 
 [George Lowe](https://github.com/georgelowe)
