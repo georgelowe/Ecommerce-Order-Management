@@ -29,6 +29,7 @@ var schema = new mongoose.Schema({
   countryCode: String,
   townOrCity: String,
   stateOrCounty: String,
+  imageURL: String,
 });
 
 const Orderdb = mongoose.model("orderdb", schema);

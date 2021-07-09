@@ -37,6 +37,7 @@ exports.create = (req, res) => {
     countryCode: capitalise(req.body.countryCode),
     townOrCity: capitalise(req.body.townOrCity),
     stateOrCounty: capitalise(req.body.stateOrCounty),
+    imageURL: req.body.imageURL,
   });
 
   // Save order in mongoDB database
