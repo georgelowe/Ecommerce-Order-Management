@@ -153,6 +153,8 @@
             </div>
             <input type="hidden" id="imageURL" name="imageURL" value="" />
 
+            <img class="uploaded-image" src="<%= order.imageURL %>" alt="" />
+
             <div class="form-group">
               <button type="submit">Save</button>
             </div>
@@ -187,6 +189,12 @@
             type="hidden"
             name="stateOrCounty"
             value="<%= order.stateOrCounty %> "
+          />
+          <input
+            type="hidden"
+            id="imageURL2"
+            name="imageURL2"
+            value="<%=order.imageURL%>"
           />
 
           <button type="submit">Submit For Printing</button>

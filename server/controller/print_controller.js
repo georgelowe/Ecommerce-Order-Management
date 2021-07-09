@@ -6,8 +6,6 @@ dotenv.config({ path: "config.env" });
 // Printing using V4 Print API
 // Basic implementation
 exports.place_order = (req, res) => {
-  console.log("successfully done that");
-
   console.log("I am testing with the name: " + req.body.name);
 
   postData.recipient.name = req.body.name;
@@ -15,9 +13,10 @@ exports.place_order = (req, res) => {
   postData.recipient.address.postalOrZipCode = req.body.postalOrZipCode;
   postData.recipient.address.townOrCity = req.body.townOrCity;
   postData.recipient.address.stateOrCounty = req.body.stateOrCounty;
+  postData.items[0].assets[0].url = req.body.imageURL;
 
   // ----- Debug -----
-  // postData.recipient.address.line2 = req.body.line2;
+  postData.recipient.address.line2 = req.body.line2;
   // postData.recipient.address.countryCode = req.body.countryCode;
 
   let axiosConfig = {
@@ -27,13 +26,23 @@ exports.place_order = (req, res) => {
     },
   };
 
+  console.log(postData.items[0].assets[0].url);
+  var temp = postData.items[0].assets[0].url;
+  console.log(temp);
+  console.log(req.body.imageURL);
+  console.log(req.body);
+
   axios
     .post("https://api.sandbox.prodigi.com/v4.0/Orders", postData, axiosConfig)
     .then(function (res) {
       console.log("Print order submitted");
+      console.log(postData.recipient.address.countryCode);
+      console.log(req.body.countryCode);
     })
     .catch(function (error) {
-      console.log(error);
+      console.log(error.response.statusText);
+      console.log(postData.recipient.address.countryCode);
+      console.log(error.response.data);
     });
   res.redirect("/");
 };

@@ -141,6 +141,26 @@ input:nth-of-type(1) {
   width: 100%;
 }
 
+.file-upload-container {
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 4px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.uploaded-image {
+  margin-top: 1rem;
+  height: 200px;
+}
+
+.uploaded-image[src=""] {
+  display: none;
+}
+
 .colour-options-container {
   text-align: center;
   padding-bottom: 10px;
